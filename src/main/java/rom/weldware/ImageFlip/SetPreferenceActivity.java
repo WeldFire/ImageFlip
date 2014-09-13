@@ -15,8 +15,7 @@ public class SetPreferenceActivity extends Activity {
         setContentView(R.xml.settings);
 
         getFragmentManager().beginTransaction()
-                .replace(R.id.preferences_fragment, new PrefsFragment())
-                .replace(R.id.ad_fragment, new AdFragment()).commit();
+                .replace(R.id.preferences_fragment, new PrefsFragment()).commit();
 
     }
 
