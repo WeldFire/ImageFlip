@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Image Flip</string>
+    <string name="app_id">AD45E5DD</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="btnGetImageTxt">Flip Image!</string>
+    <string name="menuTxt">Settings</string>
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="namespace">urn:x-cast:rom.weldware.imageflip</string>
+    <string name="preferenceTitle">Settings</string>
+    <string name="btnDiscardImageTxt">Discard Image!</string>
+    <string name="menuTxtHelp">Help</string>
+
+</resources>

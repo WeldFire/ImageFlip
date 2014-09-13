@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Default"
+        android:key="default_category">
+
+        <EditTextPreference
+            android:key="query_preference"
+            android:title="Search query"
+            android:summary="Define the query used to find images"
+            android:defaultValue="cute cats" />
+
+        <CheckBoxPreference
+            android:key="filterNSFW_preference"
+            android:title="Filter NSFW Content"
+            android:summary="Attempts to filter out NSFW pictures"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="exactQueries_preference"
+            android:title="Exact Queries"
+            android:summary="A bit less random"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="vibrateOnComplete_preference"
+            android:title="Vibrate On Completion"
+            android:summary="Vibrate device on image load completion"
+            android:defaultValue="false"/>
+
+        <CheckBoxPreference
+            android:key="deleteAll_preference"
+            android:title="Discard All Photos"
+            android:summary="Discards all photos after viewing independent of swipe direction"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Advanced"
+        android:key="advanced_category">
+
+        <EditTextPreference
+            android:key="cacheSize_preference"
+            android:title="Size of Cache"
+            android:summary="Set the preload cache size, bigger = less loading, smaller = less data consumed"
+            android:defaultValue="10"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

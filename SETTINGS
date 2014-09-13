@@ -1,0 +1,12 @@
+//alert-id#'Title'Message'Button Text
+//{version} outputs the version name
+alert-id6'ImageFlip Update!'Version 2.1.1 has been released!\n\nThe updated has fixed image discard and saving issues and has added some alert message enhancements.\n\nThe update should now be live in the Play Store.\n\nThanks for using my app!
+
+//startedbefore_preference = true
+//query_preference = cute cats
+//vibrateOnComplete_preference = false
+//filterNSFW_preference = true
+//deleteAll_preference = false
+//exactQueries_preference = false
+//imagesViewed_preference = 0
+//cacheSize_preference = 20
